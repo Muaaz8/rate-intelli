@@ -82,7 +82,7 @@ Route::get('/signin', function () {
 })->name('/signin');
 
 Route::get('/signup', function () {
-    return view('customer_bank.signup');
+    return view('landing_page');
 })->name('signup');
 
 Route::get('/about_page', function () {
